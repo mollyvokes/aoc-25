@@ -29,7 +29,7 @@ object DayOne extends AdventOfCodeSolver {
   def main (args: Array[String]): Unit = {
     var dial: Int = 50
     var zeroCount = 0
-    val inputLines = readInput("dayone.txt")
+    val inputLines = readInput("dayone.txt", None)
 
     val turns: List[Int] = processRotations(inputLines)
 

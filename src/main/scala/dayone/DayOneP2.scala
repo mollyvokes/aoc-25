@@ -46,7 +46,7 @@ object DayOneP2 extends AdventOfCodeSolver {
 
 
   def main(args: Array[String]): Unit = {
-    val inputLines = readInput("dayone.txt")
+    val inputLines = readInput("dayone.txt", None)
 
     val (turns, zeroCount) = processRotations(inputLines)
 
