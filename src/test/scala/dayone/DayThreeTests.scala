@@ -1,6 +1,6 @@
 package dayone
 
-import daythree.DayThree
+import daythree.{DayThree, DayThreeP2}
 import org.scalatest.funsuite.AnyFunSuite
 
 class DayThreeTests extends AnyFunSuite {
@@ -33,4 +33,9 @@ class DayThreeTests extends AnyFunSuite {
     assert(DayThree.largestJoltageOfBank(testIntList3) == "78")
   }
 
+  // p2
+
+  test("joinJoltageString returns correct string for list of ints") {
+    assert(DayThreeP2.joinJoltageString(testIntList1) == "818181911112111")
+  }
 }
